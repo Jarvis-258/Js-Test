@@ -34,3 +34,33 @@ console.log("Hello Word");
 }
 
 console.log(typeof bigNumber);
+
+
+
+
+// ************************* Memory ********************************* //
+
+// Memory are 2 type : -> 
+// Stack () -> Primitive - change in Copy 
+// Heap () -> Non-Primitive - change in original
+
+
+let myName = "Ram"
+
+let anothername = "kese ho bhai"
+
+console.log(myName);
+console.log(anothername);
+
+let userOne = {
+    email : "user@google.com",
+    upi : "user@ybl"
+}
+
+let userTwo = userOne
+
+userTwo.email = "two@google.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
+
